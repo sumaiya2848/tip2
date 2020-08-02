@@ -125,7 +125,7 @@
             </objects>
             <point key="canvasLocation" x="1023.1884057971015" y="111.83035714285714"/>
         </scene>
-        <!--Settings View Controller-->
+        <!--Settings-->
         <scene sceneID="FSG-tv-O5S">
             <objects>
                 <viewController id="pnQ-UQ-gM4" customClass="SettingsViewController" customModule="tip2" customModuleProvider="target" sceneMemberID="viewController">
@@ -133,7 +133,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rZF-zi-Xng">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="rZF-zi-Xng">
                                 <rect key="frame" x="341" y="143" width="51" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
@@ -151,7 +151,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="mkG-Ty-H2F"/>
                     </view>
-                    <navigationItem key="navigationItem" id="2Ib-jq-5a6"/>
+                    <navigationItem key="navigationItem" title="Settings" id="2Ib-jq-5a6"/>
                     <connections>
                         <outlet property="darkLabel" destination="fZL-Pk-1p8" id="tMP-Gc-KaK"/>
                         <outlet property="switchLabel" destination="rZF-zi-Xng" id="tSw-Ub-fMP"/>

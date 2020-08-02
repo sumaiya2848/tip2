@@ -21,14 +21,29 @@ class SettingsViewController: UIViewController {
     
 
     @IBAction func switchToggled(_ sender: UISwitch) {
-        if switchLabel.isOn == true{
-            view.backgroundColor = UIColor.black
-            darkLabel.textColor = UIColor.white
-        }else{
-            view.backgroundColor = UIColor.white
-            darkLabel.textColor = UIColor.black
-        }
+        let currentTheme = switchLabel.isOn ? Theme.dark : Theme.light
+        
+        view.backgroundColor = currentTheme.backgroundColor
+        darkLabel.textColor = currentTheme.textColor
+        
+        navigationController?.navigationBar.barTintColor = currentTheme.backgroundColor
+        navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: currentTheme.textColor]
+        tabBarController?.tabBar.barTintColor = currentTheme.backgroundColor
     }
+}
+struct Theme {
+    let textColor: UIColor
+    let backgroundColor: UIColor
+    
+    static let light = Theme(textColor: .black, backgroundColor: .white)
+    static let dark = Theme(textColor: .white, backgroundColor: .black)
+        // if switchLabel.isOn == true{
+       //     view.backgroundColor = UIColor.black
+      //      darkLabel.textColor = UIColor.white
+      //  }else{
+       //     view.backgroundColor = UIColor.white
+       //     darkLabel.textColor = UIColor.black
+        }
     /*
     // MARK: - Navigation
 
@@ -39,4 +54,3 @@ class SettingsViewController: UIViewController {
     }
     */
 
-}
