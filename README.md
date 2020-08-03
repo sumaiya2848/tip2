@@ -1,10 +1,10 @@
 # Pre-work - *Tip Calculator*
 
-**Tip Calculator** is a tip calculator application for iOS.
+**Tiply** is a tip calculator application for iOS.
 
 Submitted by: **Sumaiya Ahmed**
 
-Time spent: **10** hours spent in total
+Time spent: **15** hours spent in total
 
 ## User Stories
 
@@ -27,13 +27,13 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/C5GtpJf.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/A7BhIgl.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Some challenges I faced while building this app was the dark and light mode. I was able to apply it to the settings page but I found it difficult to implelment on the main view page for the switch was on the settings page; I hope to learn how to do these types of actions during the course. Another challenge I faced was adding constraints, for even after I added them, I continued to recieve errors. If I had more time, I would have loved to add some animation and a custom keyboard.
 
 ## License
 
