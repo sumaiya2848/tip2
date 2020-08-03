@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:tip2.xcodeproj">
+      location = "self:/Users/sumaiyaahmed/Desktop/tip2/Tiply.xcodeproj">
    </FileRef>
 </Workspace>

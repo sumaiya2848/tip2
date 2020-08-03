@@ -37,7 +37,7 @@
 
 /* Begin PBXFileReference section */
 		07A92B2524D2D0F9002AB1A1 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		07FF524024D24CCE0065502F /* tip2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tip2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07FF524024D24CCE0065502F /* Tiply.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tiply.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07FF524324D24CCE0065502F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07FF524524D24CCE0065502F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		07FF524724D24CCE0065502F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,10 +45,10 @@
 		07FF524C24D24CD40065502F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07FF524F24D24CD40065502F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07FF525124D24CD40065502F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		07FF525624D24CD50065502F /* tip2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tip2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07FF525624D24CD50065502F /* TiplyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiplyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07FF525A24D24CD50065502F /* tip2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tip2Tests.swift; sourceTree = "<group>"; };
 		07FF525C24D24CD50065502F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		07FF526124D24CD50065502F /* tip2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tip2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07FF526124D24CD50065502F /* TiplyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiplyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07FF526524D24CD50065502F /* tip2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tip2UITests.swift; sourceTree = "<group>"; };
 		07FF526724D24CD50065502F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,9 +91,9 @@
 		07FF524124D24CCE0065502F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				07FF524024D24CCE0065502F /* tip2.app */,
-				07FF525624D24CD50065502F /* tip2Tests.xctest */,
-				07FF526124D24CD50065502F /* tip2UITests.xctest */,
+				07FF524024D24CCE0065502F /* Tiply.app */,
+				07FF525624D24CD50065502F /* TiplyTests.xctest */,
+				07FF526124D24CD50065502F /* TiplyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,9 +134,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		07FF523F24D24CCE0065502F /* tip2 */ = {
+		07FF523F24D24CCE0065502F /* Tiply */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 07FF526A24D24CD50065502F /* Build configuration list for PBXNativeTarget "tip2" */;
+			buildConfigurationList = 07FF526A24D24CD50065502F /* Build configuration list for PBXNativeTarget "Tiply" */;
 			buildPhases = (
 				07FF523C24D24CCE0065502F /* Sources */,
 				07FF523D24D24CCE0065502F /* Frameworks */,
@@ -146,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = tip2;
+			name = Tiply;
 			productName = tip2;
-			productReference = 07FF524024D24CCE0065502F /* tip2.app */;
+			productReference = 07FF524024D24CCE0065502F /* Tiply.app */;
 			productType = "com.apple.product-type.application";
 		};
-		07FF525524D24CD50065502F /* tip2Tests */ = {
+		07FF525524D24CD50065502F /* TiplyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 07FF526D24D24CD50065502F /* Build configuration list for PBXNativeTarget "tip2Tests" */;
+			buildConfigurationList = 07FF526D24D24CD50065502F /* Build configuration list for PBXNativeTarget "TiplyTests" */;
 			buildPhases = (
 				07FF525224D24CD50065502F /* Sources */,
 				07FF525324D24CD50065502F /* Frameworks */,
@@ -164,14 +164,14 @@
 			dependencies = (
 				07FF525824D24CD50065502F /* PBXTargetDependency */,
 			);
-			name = tip2Tests;
+			name = TiplyTests;
 			productName = tip2Tests;
-			productReference = 07FF525624D24CD50065502F /* tip2Tests.xctest */;
+			productReference = 07FF525624D24CD50065502F /* TiplyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		07FF526024D24CD50065502F /* tip2UITests */ = {
+		07FF526024D24CD50065502F /* TiplyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 07FF527024D24CD50065502F /* Build configuration list for PBXNativeTarget "tip2UITests" */;
+			buildConfigurationList = 07FF527024D24CD50065502F /* Build configuration list for PBXNativeTarget "TiplyUITests" */;
 			buildPhases = (
 				07FF525D24D24CD50065502F /* Sources */,
 				07FF525E24D24CD50065502F /* Frameworks */,
@@ -182,9 +182,9 @@
 			dependencies = (
 				07FF526324D24CD50065502F /* PBXTargetDependency */,
 			);
-			name = tip2UITests;
+			name = TiplyUITests;
 			productName = tip2UITests;
-			productReference = 07FF526124D24CD50065502F /* tip2UITests.xctest */;
+			productReference = 07FF526124D24CD50065502F /* TiplyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 07FF523B24D24CCE0065502F /* Build configuration list for PBXProject "tip2" */;
+			buildConfigurationList = 07FF523B24D24CCE0065502F /* Build configuration list for PBXProject "Tiply" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				07FF523F24D24CCE0065502F /* tip2 */,
-				07FF525524D24CD50065502F /* tip2Tests */,
-				07FF526024D24CD50065502F /* tip2UITests */,
+				07FF523F24D24CCE0065502F /* Tiply */,
+				07FF525524D24CD50065502F /* TiplyTests */,
+				07FF526024D24CD50065502F /* TiplyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -290,12 +290,12 @@
 /* Begin PBXTargetDependency section */
 		07FF525824D24CD50065502F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 07FF523F24D24CCE0065502F /* tip2 */;
+			target = 07FF523F24D24CCE0065502F /* Tiply */;
 			targetProxy = 07FF525724D24CD50065502F /* PBXContainerItemProxy */;
 		};
 		07FF526324D24CD50065502F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 07FF523F24D24CCE0065502F /* tip2 */;
+			target = 07FF523F24D24CCE0065502F /* Tiply */;
 			targetProxy = 07FF526224D24CD50065502F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -445,7 +445,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Codepath.tip2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Tiply;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,7 +462,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Codepath.tip2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Tiply;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -485,7 +485,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tip2.app/tip2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tiply.app/Tiply";
 			};
 			name = Debug;
 		};
@@ -506,7 +506,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tip2.app/tip2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tiply.app/Tiply";
 			};
 			name = Release;
 		};
@@ -551,7 +551,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		07FF523B24D24CCE0065502F /* Build configuration list for PBXProject "tip2" */ = {
+		07FF523B24D24CCE0065502F /* Build configuration list for PBXProject "Tiply" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				07FF526824D24CD50065502F /* Debug */,
@@ -560,7 +560,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		07FF526A24D24CD50065502F /* Build configuration list for PBXNativeTarget "tip2" */ = {
+		07FF526A24D24CD50065502F /* Build configuration list for PBXNativeTarget "Tiply" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				07FF526B24D24CD50065502F /* Debug */,
@@ -569,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		07FF526D24D24CD50065502F /* Build configuration list for PBXNativeTarget "tip2Tests" */ = {
+		07FF526D24D24CD50065502F /* Build configuration list for PBXNativeTarget "TiplyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				07FF526E24D24CD50065502F /* Debug */,
@@ -578,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		07FF527024D24CD50065502F /* Build configuration list for PBXNativeTarget "tip2UITests" */ = {
+		07FF527024D24CD50065502F /* Build configuration list for PBXNativeTarget "TiplyUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				07FF527124D24CD50065502F /* Debug */,
