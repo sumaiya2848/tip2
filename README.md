@@ -1,4 +1,4 @@
-# Pre-work - *Tip Calculator*
+# Pre-work - *Tiply*
 
 **Tiply** is a tip calculator application for iOS.
 
