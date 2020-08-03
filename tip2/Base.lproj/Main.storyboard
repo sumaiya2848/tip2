@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Tip Calculator-->
+        <!--Tiply-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="tip2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Tiply" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -95,7 +95,7 @@
                             <outletCollection property="gestureRecognizers" destination="o9M-jd-FNW" appends="YES" id="8Wg-aw-aa3"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" title="Tip Calculator" id="9eg-mH-7Fk">
+                    <navigationItem key="navigationItem" title="Tiply" id="9eg-mH-7Fk">
                         <barButtonItem key="rightBarButtonItem" title="Settings" id="atE-Oc-EDX">
                             <connections>
                                 <segue destination="pnQ-UQ-gM4" kind="push" id="1yU-KV-jmI"/>
@@ -128,7 +128,7 @@
         <!--Settings-->
         <scene sceneID="FSG-tv-O5S">
             <objects>
-                <viewController id="pnQ-UQ-gM4" customClass="SettingsViewController" customModule="tip2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="pnQ-UQ-gM4" customClass="SettingsViewController" customModule="Tiply" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LVC-xY-BM0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
